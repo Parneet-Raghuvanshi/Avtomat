@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginAct">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/title_text"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_below="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/input_layout">
+
+        <com.ritesh.ratiolayout.RatioRelativeLayout
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fixed_attribute="WIDTH"
+            app:horizontal_ratio="1"
+            app:vertical_ratio="1">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                app:lottie_loop="false"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="loginone.json"
+                android:layout_height="match_parent"/>
+
+        </com.ritesh.ratiolayout.RatioRelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/input_layout"
+        android:layout_above="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:id="@+id/phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_phone_accent"
+            app:startIconTint="@color/colorAccent"
+            android:hint="@string/phonenumber"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:id="@+id/otp_input"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic__message_accent"
+            app:startIconTint="@color/colorAccent"
+            android:hint="@string/otp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="30dp"
+        android:id="@+id/continue_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/continue_btn"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"
+        android:id="@+id/login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/login"/>
+
+</RelativeLayout>

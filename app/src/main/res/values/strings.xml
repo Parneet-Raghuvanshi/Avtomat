@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Avtomat</string>
+    <string name="continue_btn">Continue</string>
+    <string name="english_lang">English</string>
+    <string name="hindi_lang">हिंदी</string>
+    <string name="helloworld">Hello World</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="chooselang_title">Choose a Language to Continue</string>
+    <string name="login">Login</string>
+    <string name="otp">OTP</string>
+    <string name="emptynumbertext">Number can\'t be Empty</string>
+    <string name="numberlengthtext">Enter a Valid Phone Number</string>
+    <string name="about_us">Our app is mostly focused on skilling people with indigenous traditional skills and crafts but some content regarding industrial-grade technology is also available. We have replaced the traditional methods of learning by text with videos and AR Models to help them understand and visualize better. The AR models are made using unity, the text is added using firebase, and videos. are loaded using google cloud You can learn with us and apply for a better job or can become an independent contractor for traditional toys and Artworks such as - Puppet making, Pottery, Woodworks, etc. After completion of a course, you will get a certificate that is generated using a website which was called using Selenium WebDriver. In the jobs and contracts section of our app, You can look for work in your area or on the basis of your expertise hence we had made an organization login in addition to learners login.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avtomat</string>
+    <string name="continue_btn">जारी रखें</string>
+    <string name="english_lang">English</string>
+    <string name="hindi_lang">हिंदी</string>
+    <string name="helloworld">नमस्ते दुनिया</string>
+    <string name="phonenumber">फ़ोन नंबर</string>
+    <string name="chooselang_title">जारी रखने के लिए एक भाषा चुनें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="otp">OTP</string>
+    <string name="emptynumbertext">नंबर खाली नहीं हो सकता</string>
+    <string name="numberlengthtext">एक वैध फोन नंबर दर्ज करें</string>
+    <string name="about_us"></string>
+</resources>

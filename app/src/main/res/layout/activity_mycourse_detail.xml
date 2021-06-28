@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mycourses.Mycourse_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <com.jgabrielfreitas.core.BlurImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/image_course_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"/>
+
+                <TextView
+                    android:id="@+id/course_name"
+                    android:layout_centerInParent="true"
+                    android:textStyle="bold"
+                    android:textSize="36sp"
+                    android:textColor="@color/white"
+                    android:text="Wood Carving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/back_btn"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/top_layout"
+                android:id="@+id/spec_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_baseline_supervisor_account_24"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"/>
+                        <TextView
+                            android:id="@+id/course_users"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="25 K"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="Users"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_baseline_access_time_24"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"/>
+                        <TextView
+                            android:id="@+id/course_time"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="12 Weeks"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="Course Time"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_baseline_stars_24"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"/>
+                        <TextView
+                            android:id="@+id/course_rating"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="86%"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:textSize="16sp"
+                            android:text="Rating"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/detail_layout"
+                android:layout_below="@+id/spec_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.core.widget.ContentLoadingProgressBar
+                    android:layout_margin="10dp"
+                    android:indeterminate="false"
+                    android:progress="0"
+                    android:secondaryProgress="100"
+                    android:max="100"
+                    android:progressDrawable="@drawable/progressbar_horizontal"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:id="@+id/course_progressbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/course_progressbar"
+                    android:id="@+id/course_progress_text"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="1% Completed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:padding="5dp"
+                    android:clipToPadding="false"
+                    android:id="@+id/recyclerview_detail"
+                    android:layout_below="@+id/course_progress_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_below="@+id/detail_layout"
+                android:layout_marginTop="10dp"
+                android:id="@+id/enroll_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Get Certified"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btm_nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/btm_nav_courses"
+        android:title="Courses"
+        android:icon="@drawable/ic_baseline_credit_card_24"/>
+
+    <item
+        android:id="@+id/btm_nav_feed"
+        android:title="Feed"
+        android:icon="@drawable/ic_baseline_dynamic_feed_24"/>
+
+    <item
+        android:id="@+id/btm_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+</menu>

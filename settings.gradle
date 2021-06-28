@@ -1,0 +1,3 @@
+include ':healthcare'
+include ':app'
+rootProject.name = "Avtomat"

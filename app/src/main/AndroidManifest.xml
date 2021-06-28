@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.avtomat.androidapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme, android:icon">
+        <activity android:name=".mycourses.Mycourse_detail"></activity>
+        <activity android:name=".coursesall.Course_detail" />
+        <activity android:name=".Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intro.ChooseLang" />
+        <activity android:name=".intro.IntroAct" />
+        <activity android:name=".login.LoginAct" />
+        <activity android:name=".UnityAct" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

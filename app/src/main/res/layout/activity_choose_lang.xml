@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.ChooseLang">
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_above="@+id/title_chooselang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="chooselang.json"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/choose_lang_layout"
+        android:layout_above="@+id/continue_btn"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_english"
+                android:layout_marginBottom="40dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/colorAccent"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_margin="10dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:text="@string/english_lang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_hindi"
+                android:elevation="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="10dp"
+                android:layout_width="100dp"
+                app:cardElevation="10dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_margin="10dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:text="@string/hindi_lang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_chooselang"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/choose_lang_layout"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/chooselang_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continue_btn"
+        android:elevation="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/continue_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

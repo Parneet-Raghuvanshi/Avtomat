@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "566775799005",
+    "project_id": "avtomat-2a4d9",
+    "storage_bucket": "avtomat-2a4d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566775799005:android:dde4ebfa1778f0c7554f34",
+        "android_client_info": {
+          "package_name": "com.avtomat.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566775799005-jatb1u3gl4v9qo61qj1m5v5hsp3khfbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avtomat.androidapp",
+            "certificate_hash": "ddd88a6c56efb89350cfab84c94a466429527019"
+          }
+        },
+        {
+          "client_id": "566775799005-egc84id5e9ldrl9r45ohrbppd0csafdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH_KBEqFI7rcr9YaqObL5QRTepTkNoacs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566775799005-egc84id5e9ldrl9r45ohrbppd0csafdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

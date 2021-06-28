@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chyrta:AndroidOnboarder:0.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7bf91ca4914b0af248518d4dd9b2e22/jetified-AndroidOnboarder-0.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7bf91ca4914b0af248518d4dd9b2e22/jetified-AndroidOnboarder-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7bf91ca4914b0af248518d4dd9b2e22/jetified-AndroidOnboarder-0.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/019313473caf8481c31218a9af3cbfea/jetified-AndroidOnboarder-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/019313473caf8481c31218a9af3cbfea/jetified-AndroidOnboarder-0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/019313473caf8481c31218a9af3cbfea/jetified-AndroidOnboarder-0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56f6501e715699d94050547a8bc8d519/jetified-AndroidOnboarder-0.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56f6501e715699d94050547a8bc8d519/jetified-AndroidOnboarder-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56f6501e715699d94050547a8bc8d519/jetified-AndroidOnboarder-0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9f7ab67e90833a50cac473df180cc4c/jetified-AndroidOnboarder-0.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9f7ab67e90833a50cac473df180cc4c/jetified-AndroidOnboarder-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9f7ab67e90833a50cac473df180cc4c/jetified-AndroidOnboarder-0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b5ebf95ffc250f44fa1d73102c9aab1/jetified-AndroidOnboarder-0.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b5ebf95ffc250f44fa1d73102c9aab1/jetified-AndroidOnboarder-0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b5ebf95ffc250f44fa1d73102c9aab1/jetified-AndroidOnboarder-0.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chyrta/AndroidOnboarder/0.7/802bb11eafff3d379afaf1f9d9d30fd3640868d1/AndroidOnboarder-0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chyrta/AndroidOnboarder/0.7/abf0d1c88535f739e1934956769bfe1b27475041/AndroidOnboarder-0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
