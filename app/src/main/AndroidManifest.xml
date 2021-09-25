@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:theme, android:icon">
-        <activity android:name=".mycourses.Mycourse_detail"></activity>
+        <activity android:name=".mycourses.Mycourse_detail"/>
         <activity android:name=".coursesall.Course_detail" />
         <activity android:name=".Dashboard">
             <intent-filter>

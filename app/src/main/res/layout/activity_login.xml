@@ -34,10 +34,10 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="match_parent"
-                app:lottie_loop="false"
+                android:layout_height="match_parent"
                 app:lottie_autoPlay="true"
                 app:lottie_fileName="loginone.json"
-                android:layout_height="match_parent"/>
+                app:lottie_loop="false" />
 
         </com.ritesh.ratiolayout.RatioRelativeLayout>
 
