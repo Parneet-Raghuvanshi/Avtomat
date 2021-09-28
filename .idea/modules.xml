@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Avtomat.iml" filepath="$PROJECT_DIR$/.idea/Avtomat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Avtomat.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Avtomat.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/healthcare/Avtomat.healthcare.iml" filepath="$PROJECT_DIR$/.idea/modules/healthcare/Avtomat.healthcare.iml" />
     </modules>
   </component>
 </project>

@@ -22,6 +22,16 @@ Our topic was : Reskilling or up Skilling for Ensuring Livelihood
 
 Here are some of the coded functions and tools which are used in this application:
 
+- Used [Android Onboarder](https://github.com/chyrta/AndroidOnboarder) for Fast and interactive onboarding on app first time use.
+- Fully based on google [material](https://material.io/design) design UI.
+- [Lottie](https://lottiefiles.com/) animations implemented on choose language page and login with firebase phone auth page.
+- Used [Firebase](https://firebase.google.com/) phone auth and Firbase realtime database (no-sql).
+- `implementation 'com.firebaseui:firebase-ui-database:current-version'` dependency for Firebase Premade Recyclerview.
+- [Picaso](https://square.github.io/picasso/) a powerful image downloading and caching library for Android (used this for all netwrok images).
+- `implementation 'com.github.jgabrielfreitas:BlurImageView:current-version'` Blur Image View for best blurred background like arcylic effect.
+- Integrated youtube view for embeded youtube videos.
+- It has multilanguage support (English,Hindi only till now but can add more in future) by simply adding `strings.xml` file variant.
+
 # Contributions
 
 Feel free to create issues and pull requests 😊 or [Contact Me](mailto:parneetraghuvanshi@gmail.com)
