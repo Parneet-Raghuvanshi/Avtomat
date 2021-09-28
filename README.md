@@ -1,4 +1,4 @@
-# Avtomat
+# Avtomat ( Automatic )
 
 ![](https://github.com/Parneet-Raghuvanshi/Avtomat/blob/master/readmesources/AvtomatProject.png?raw=true "Avtomat")
 
