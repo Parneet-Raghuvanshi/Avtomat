@@ -109,18 +109,18 @@
         android:text="@string/continue_btn"/>
 
     <com.google.android.material.button.MaterialButton
-        android:visibility="invisible"
-        android:layout_marginTop="30dp"
         android:id="@+id/login_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:layout_alignParentBottom="true"
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
         android:background="@color/colorAccent"
-        android:text="@string/login"/>
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
